@@ -14,7 +14,7 @@ for i, row in df.iterrows():
 # 날짜별 평균 구함
 avs = {}
 for key in md:
-    v = avs[key] = sum(md[key]) / len(md[key]) # ---(*4)
+    v = avs[key] = sum(md[key]) / len(md[key])
     print("{0} : {1}".format(key, v))
 
 

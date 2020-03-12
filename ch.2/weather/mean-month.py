@@ -5,7 +5,7 @@ import pandas as pd
 df = pd.read_csv("tem10y.csv", encoding="utf-8")
 
 # 월별 평균 구하기
-g = df.groupby(['월'])['기온']
+g = df.groupby(['월'])['기온'] #월단위로 그룹화함
 gg = g.sum() / g.count()
 
 # 결과 출력
