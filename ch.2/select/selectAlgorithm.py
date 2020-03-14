@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import warnings
 from sklearn.utils.testing import all_estimators
+from sklearn.preprocessing import LabelEncoder
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -21,6 +22,7 @@ x = iris_data.loc[:,["SepalLength","SepalWidth","PetalLength","PetalWidth"]]
 # 학습 전용과 테스트 전용 분리하기 
 warnings.filterwarnings('ignore')
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, train_size = 0.8, shuffle = True)
+
 
 # classifier 계열 모든 알고리즘으로 추출
 warnings.filterwarnings('ignore')

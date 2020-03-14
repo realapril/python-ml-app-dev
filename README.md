@@ -10,4 +10,3 @@ Link: [위키북스 공식 예제 깃허브][wblink]
 
 [PMLlink]: https://wikibook.co.kr/python-ml-app-dev/ "Wiki Books"
 [wblink]: https://github.com/wikibook/python-ml-app-dev "Wiki Books Github"
-
